@@ -1,7 +1,7 @@
 {
   "domain": "liquid_check",
   "name": "Liquid Check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "config_flow": true,
   "single_config_entry": true,
   "integration_type": "device",
