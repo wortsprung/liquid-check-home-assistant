@@ -1,0 +1,76 @@
+{
+  "title": "Liquid Check",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Liquid Check einrichten",
+        "description": "Verbindung zum Liquid-Check-Gerät einrichten.",
+        "data": {
+          "name": "Name der Integration",
+          "host": "IP-Adresse oder Hostname",
+          "port": "Port",
+          "use_https": "HTTPS verwenden",
+          "tank_name": "Name des Behälters",
+          "max_volume": "Maximalvolumen in Litern",
+          "scan_interval": "Automatisches Abrufintervall in Minuten",
+          "measure_delay": "Wartezeit nach einer Messung in Sekunden",
+          "timeout": "Zeitüberschreitung in Sekunden",
+          "keep_last_value": "Letzten Messwert bei Verbindungsfehler behalten"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Liquid Check konnte nicht erreicht werden.",
+      "invalid_data": "Das Gerät hat keine gültigen Messwerte geliefert.",
+      "unknown": "Unbekannter Fehler."
+    },
+    "abort": {
+      "already_configured": "Liquid Check ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Liquid-Check-Optionen",
+        "data": {
+          "port": "Port",
+          "use_https": "HTTPS verwenden",
+          "max_volume": "Maximalvolumen in Litern",
+          "scan_interval": "Abrufintervall in Minuten",
+          "measure_delay": "Wartezeit nach einer Messung in Sekunden",
+          "timeout": "Zeitüberschreitung in Sekunden",
+          "keep_last_value": "Letzten Messwert bei Verbindungsfehler behalten"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "content": {
+        "name": "Inhalt"
+      },
+      "level": {
+        "name": "Füllhöhe"
+      },
+      "percent": {
+        "name": "Füllstand"
+      },
+      "last_success": {
+        "name": "Letzte erfolgreiche Aktualisierung"
+      },
+      "last_error": {
+        "name": "Letzter Fehler"
+      }
+    },
+    "binary_sensor": {
+      "connection": {
+        "name": "Verbindung"
+      }
+    },
+    "button": {
+      "measure": {
+        "name": "Neue Messung starten"
+      }
+    }
+  }
+}

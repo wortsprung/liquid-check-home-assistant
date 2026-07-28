@@ -1,0 +1,7 @@
+refresh:
+  name: Werte aktualisieren
+  description: Liest die aktuell gespeicherten Messwerte vom Liquid Check neu ein.
+
+measure:
+  name: Neue Messung starten
+  description: Startet eine physische Messung und aktualisiert anschließend die Werte.

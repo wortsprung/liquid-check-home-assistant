@@ -1,0 +1,11 @@
+{
+  "domain": "liquid_check",
+  "name": "Liquid Check",
+  "version": "1.0.3",
+  "config_flow": true,
+  "single_config_entry": true,
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "documentation": "https://github.com/home-assistant/core",
+  "codeowners": []
+}
