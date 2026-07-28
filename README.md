@@ -29,44 +29,6 @@ Die Integration liest die Messwerte eines Liquid-Check-Geräts über das lokale 
 1. HACS öffnen.
 2. Zu **Integrationen** wechseln.
 3. Über das Drei-Punkte-Menü **Benutzerdefinierte Repositories** öffnen.
-4. Folgendes Repository eintragen:
-
-   ```text
-   wortsprung/liquid-check-home-assistant
-cd /tmp/liquid-check-repo
-
-cat > README.md <<'EOF'
-# Liquid Check for Home Assistant
-
-Benutzerdefinierte Home-Assistant-Integration für Liquid-Check-Füllstandssensoren.
-
-Die Integration liest die Messwerte eines Liquid-Check-Geräts über das lokale Netzwerk aus und stellt sie in Home Assistant als Sensoren bereit.
-
-## Funktionen
-
-- Füllstand in Prozent
-- Inhalt in Litern
-- gemessene Füllhöhe
-- Verbindungsstatus
-- Zeitpunkt der letzten erfolgreichen Aktualisierung
-- Anzeige des letzten Fehlers
-- manuelles Auslösen einer Messung
-- konfigurierbares Abrufintervall
-- optionales Beibehalten des letzten Messwerts bei Verbindungsfehlern
-- Konfiguration vollständig über die Home-Assistant-Oberfläche
-
-## Voraussetzungen
-
-- Home Assistant
-- Liquid-Check-Gerät im lokalen Netzwerk
-- feste IP-Adresse oder erreichbarer Hostname des Geräts
-- HACS für die empfohlene Installation
-
-## Installation über HACS
-
-1. HACS öffnen.
-2. Zu **Integrationen** wechseln.
-3. Über das Drei-Punkte-Menü **Benutzerdefinierte Repositories** öffnen.
 4. Folgendes Repository eintragen: `wortsprung/liquid-check-home-assistant`
 5. Als Typ **Integration** auswählen.
 6. Nach **Liquid Check** suchen und installieren.
@@ -122,7 +84,7 @@ Die Kommunikation erfolgt direkt zwischen Home Assistant und dem Liquid-Check-Ge
 
 ## Version
 
-Aktuelle Version: **1.0.3**
+Aktuelle Version: **1.0.4**
 
 ## Haftungsausschluss
 
