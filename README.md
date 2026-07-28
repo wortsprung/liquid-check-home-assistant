@@ -89,3 +89,7 @@ Aktuelle Version: **1.0.4**
 ## Haftungsausschluss
 
 Dies ist eine private, unabhängige Home-Assistant-Integration und kein offizielles Produkt des Geräteherstellers oder des Home-Assistant-Projekts.
+
+## Lizenz
+
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
